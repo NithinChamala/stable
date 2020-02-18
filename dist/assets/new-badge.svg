@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="23px" viewBox="0 0 55 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60.1 (101010) - https://sketch.com -->
+    <title>5C8C8FC6-351C-4869-8821-C03E35F7932B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M0,23 L0,0 L5.41753653,0 L9.23799582,10.6153846 C9.86430063,12.1594406 10.3340292,14.4433566 10.3340292,14.4433566 L10.4592902,14.4433566 C10.4592902,14.4433566 10.177453,12.0307692 10.177453,10.5832168 L10.177453,0 L15,0 L15,23 L9.61377871,23 L5.76200418,12.4167832 C5.16701461,10.8405594 4.69728601,8.55664336 4.69728601,8.55664336 L4.57202505,8.55664336 C4.57202505,8.55664336 4.85386221,10.9692308 4.85386221,12.4167832 L4.85386221,23 L0,23 Z M19,23 L19,0 L30.7065217,0 L30.7065217,4.66433566 L24.3478261,4.66433566 L24.3478261,9.07132867 L29.3695652,9.07132867 L29.3695652,13.7356643 L24.3478261,13.7356643 L24.3478261,18.3356643 L31,18.3356643 L31,23 L19,23 Z M34.9574468,23 L31,0 L36.1382979,0 L38.0212766,14.379021 C38.1808511,15.4727273 38.1489362,16.9524476 38.1489362,16.9524476 L38.3085106,16.9524476 C38.3085106,16.9524476 38.3404255,15.4727273 38.5,14.379021 L40.5744681,0 L45.4574468,0 L47.5,14.379021 C47.6595745,15.4727273 47.7234043,16.9524476 47.7234043,16.9524476 L47.8510638,16.9524476 C47.8510638,16.9524476 47.8510638,15.4727273 48.0106383,14.379021 L49.8617021,0 L55,0 L51.0106383,23 L45.0744681,23 L43.287234,11.3874126 C43.0638298,9.90769231 43.0319149,8.68531469 43.0319149,8.68531469 L42.9361702,8.68531469 C42.9361702,8.68531469 42.9042553,9.90769231 42.712766,11.3874126 L40.9893617,23 L34.9574468,23 Z" id="path-1"></path>
+        <filter x="-20.0%" y="-47.8%" width="147.3%" height="213.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="new_tile_badge-Ribbon/badges/New">
+            <g id="Ribbon/badges/New">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#ECECEC" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="16px" viewBox="0 0 38 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Live-badge</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BasicNavigation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.649999976">
+        <g id="_primaryMenuWireframe" transform="translate(-100.000000, -913.000000)" fill="#F5A623">
+            <g id="ribbon1" transform="translate(0.000000, 621.000000)">
+                <g id="Ribbon/badges/live" transform="translate(100.000000, 292.000000)">
+                    <path d="M0,0 L4.21970149,0 L4.21970149,12.5938375 L9.41492537,12.5938375 L9.41492537,16 L0,16 L0,0 Z M10.3450746,0 L14.5647761,0 L14.5647761,16 L10.3450746,16 L10.3450746,0 Z M15.1546269,0 L19.5785075,0 L21.28,12.0560224 L21.3253731,12.0560224 L23.0268657,0 L27.518806,0 L24.0250746,16 L18.5802985,16 L15.1546269,0 Z M28.199403,0 L37.7958209,0 L37.7958209,3.40616246 L32.4191045,3.40616246 L32.4191045,6.14005602 L37.4555224,6.14005602 L37.4555224,9.41176471 L32.4191045,9.41176471 L32.4191045,12.5938375 L38,12.5938375 L38,16 L28.199403,16 L28.199403,0 Z" id="LIVE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

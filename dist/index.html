@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="platform-comcast2" lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <title>Sling TV</title>
+    
+<link href="vendor.css" rel="stylesheet"><link href="app.css" rel="stylesheet"></head>
+
+<body>
+<div id="app-container" ng-class="{'black': isTv}">
+    <div data-ui-view></div>
+
+    <div id="app-content-container"
+         brand="sling">
+            <!--This is to show memory usage in samsung-->
+            
+            <!--VIDEO PLAYER-->
+            <div ng-if="enableMemoryPrint" style="position:fixed;z-index:999">CurrentMemory: {{memory}}MB</div>
+            <div id="video-container" data-video-player ng-class="{'hidden': playerVisible()}">
+                <i ng-if="spinnerShowing" class="spinner">
+                    <span style="display:none;" aria-live="{{isAriaHidden ? 'off' : 'polite'}}" aria-hidden="{{isAriaHidden}}">Loading</span>
+                </i>
+            </div>
+            <div id="app-content" data-ui-view="content"></div>
+    </div>
+
+    <spinner data-brand="sling"></spinner>
+
+    <div id="initLoader">
+        <div id="initLoaderInner"
+             class="init-loader">
+            <div class="loader-inner">
+                <figure class="dish-logo"></figure>
+
+                <figure class="generic-spinner"></figure>
+
+                <span class="sr-only">Loading the app...</span>
+            </div>
+        </div>
+    </div>
+
+    <toaster-container
+            class="custom-toast"
+            toaster-options="{'position-class': 'toast-bottom-center', 'limit': 1 }">
+    </toaster-container>
+
+    <core-toast-container
+            class="custom-toast"
+            options="{'positionClass': 'toast-bottom-center', 'limit': 1 }">
+    </core-toast-container>
+
+    <core-modal-container></core-modal-container>
+
+    <core-aria-container></core-aria-container>
+
+    
+    <dev-tools></dev-tools>
+    
+
+    <!-- NO internet message. Only display this message if there is no connection on bootstrap -->
+    <div id="noInternetContainer" style="display: none;">Oops! Looks like we lost connection to your internet. Double check to make sure you're connected, and restart the app.</div>
+</div>
+
+
+
+
+    <script defer src="https://cdn.thor.comcast.com/sdk/money-badger.min.js"></script>
+
+
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="app.js"></script></body>
+</html>
